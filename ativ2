@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Início - Viaje Mais</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <header class="bg-header">
+        <h1>Viaje Mais</h1>
+        <h2>O mundo espera por você</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Bem-vindo à nossa Agência</h2>
+            <p>Oferecemos os melhores pacotes de viagens internacionais e nacionais para você e sua família.</p>
+            <p>Explore novos destinos, culturas marcantes e paisagens inesquecíveis com total segurança.</p>
+
+            <div class="imagens">
+                <img src="viagem.png" alt="icone de viagem" class="icone">
+                <img src="fotodapraia.webp" alt="Foto de Praia" class="foto">
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
