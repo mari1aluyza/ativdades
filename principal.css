@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #7ed5eb;
+}
+
+.bg-header {
+    background-image: url(viagem.png);
+    background-size: cover;
+    background-position: center;
+    color: rgb(119, 195, 230);
+    padding: 40px;
+    text-shadow: 2px 2px 4px rgba(26, 63, 131, 0.7);
+}
+
+.bg-section {
+    background-image: url(viagem.png);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+h1, h2, nav ul {
+    text-align: center;
+}
+
+main {
+    text-align: justify;
+    max-width: 800px;
+    margin: 20px auto; /* Margem externa aplicada */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 2px solid #446692; /* Borda aplicada */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px; /* Margem externa nos itens do menu */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+    font-size: 1.1rem;
+}
+
+.imagens {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.icone {
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.foto {
+    width: 300px;
+    height: auto;
+    border: 1px solid #ccc;
+}
